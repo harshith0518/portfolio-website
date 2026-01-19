@@ -1,6 +1,5 @@
 import { useTheme } from '../../contexts/ThemeContext';
 import { Moon, Sun } from 'lucide-react'
-import GlassButton from './GlassButton';
 
 
 const ThemeButton = () => {

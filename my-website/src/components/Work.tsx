@@ -29,7 +29,6 @@ import {
   SiScikitlearn,
   SiPytorch,
   SiNumpy,
-  SiMetasploit,
 } from "react-icons/si";
 
 
