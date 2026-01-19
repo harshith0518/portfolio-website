@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: 255 255 255;
+    --text: 15 23 42;
+    --card: 248 250 252;
+    --border: 226 232 240;
+    --accent: 37 99 235;
+  }
+
+  .dark {
+    --bg: 2 6 23;
+    --text: 226 232 240;
+    --card: 15 23 42;
+    --border: 30 41 59;
+    --accent: 96 165 250;
+  }
+
+  body {
+    @apply bg-[rgb(var(--bg))] text-[rgb(var(--text))]
+            transition-colors duration-300;
+  }
+}
+
+@layer base {
+  :root {
+    --pattern: 226 232 240; /* light */
+  }
+
+  .dark {
+    --pattern: 30 41 59; /* dark */
+  }
+}
+
+
+
